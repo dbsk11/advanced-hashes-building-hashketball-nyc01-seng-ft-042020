@@ -1,7 +1,7 @@
 require 'pry'
 
 def game_hash
-  data = {
+  data = {{
     :home => {
       :team_name => "Brooklyn Nets",
       :colors => ["Black", "White"],
@@ -58,8 +58,8 @@ def game_hash
           :slam_dunks => 1,
         }
       ]
-    }
-    :away => {
+    }}
+    {:away => {
       :team_name => "Charlotte Hornets",
       :colors => ["Turquoise", "Purple"],
       :players => [
@@ -119,6 +119,6 @@ def game_hash
           :slam_dunks =>12
         }
       ]
-    }
+    }}
   }
 end
